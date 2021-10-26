@@ -153,8 +153,9 @@ a {
 }
 
 .you-can {
-  margin-top: 54px;
-  margin-left: 60px;
+  /* margin-top: 54px;
+  margin-left: 60px; */
+  padding: 30px 60px;
 }
 
 .you {
@@ -484,7 +485,7 @@ h3 {
   text-decoration: none;
   margin: auto;
   width: 20%;
-  padding: 15px;
+  padding: 13px;
   border-radius: 10px;
   display: block;
   text-align: center;
@@ -786,7 +787,7 @@ height: 30px; */
   margin-top: 13px;
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 1000px) {
   .navbar {
     display: none;
   }
@@ -827,17 +828,32 @@ height: 30px; */
     margin-top: -10px;
     width: 250px;
   }
+  .bot{
+    height: 46px;
+    width: 41px;
+    right: 32px;
+  }
+  .browse{
+    margin-top: -92px;
+  }
+  .forward{
+        right: 17px;
+    bottom: -564px;
+  }
 }
 
 @media only screen and (max-width: 975px) {
   .header {
-    height: auto;
+    /* height: auto; */
   }
   .you {
     font-size: 21px;
     line-height: 38px;
     padding-top: 10px;
     width: 60%;
+  }
+  #what-we-do{
+    display: none;
   }
   .maryimg:nth-of-type(3) {
     display: none;
@@ -846,6 +862,9 @@ height: 30px; */
     display: none;
   }
   .forward {
+    display: none;
+  }
+  .bot{
     display: none;
   }
 
@@ -862,12 +881,13 @@ height: 30px; */
   }
   .utilizebox {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
+        padding: 20px 100px;
   }
 }
 @media only screen and (max-width: 736px) {
   .header {
-    height: auto;
+    /* height: auto; */
   }
   .build-create h2 {
     text-align: block;
@@ -876,6 +896,9 @@ height: 30px; */
   }
   .explore {
     width: 30%;
+  }
+  #what-we-do{
+    display: none;
   }
 }
 
@@ -889,7 +912,7 @@ height: 30px; */
     background-image: url(Rectangle.png);
     background-size: cover;
     background-attachment: unset;
-    height: auto;
+    /* height: auto; */
   }
 
   .maryimg {
@@ -900,6 +923,14 @@ height: 30px; */
     width: 70%;
     text-align: center;
   }
+  .search-box input{
+    width: 250px;
+    margin-top: -24px;
+  }
+  .search-box img {
+    left: 250px;
+    top: 4px;
+  }
   .company-logos {
     margin-left: 20px;
     grid-template-columns: repeat(3, 2, 1fr);
@@ -907,6 +938,9 @@ height: 30px; */
   }
   .comp-logo {
     align-content: center;
+  }
+  .you-can{
+    /* padding: 10px 17px; */
   }
 }
 @media only screen and (max-width: 480px) {
@@ -918,7 +952,7 @@ height: 30px; */
   }
   .you {
     font-size: 28px;
-    width: 41%;
+    width: 57%;
   }
   .you-can p {
     font-size: 12px;
